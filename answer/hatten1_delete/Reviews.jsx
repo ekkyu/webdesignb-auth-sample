@@ -66,7 +66,7 @@ export default function Reviews() {
           <Button variant="contained" onClick={handleSubmit}>投稿</Button>
         </Stack>
       ) : (
-        <Typography color="text.secondary">ログインすると、声を投稿できます</Typography>
+        <Typography color="text.secondary">ログインすると、コメントを投稿できます</Typography>
       )}
       {reviews.map((review) => (
         <Paper key={review.id} variant="outlined" sx={{ p: 2 }}>
